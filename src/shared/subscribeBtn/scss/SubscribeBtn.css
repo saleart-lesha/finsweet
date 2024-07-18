@@ -1,0 +1,33 @@
+.btn_yellow, .btn_white {
+  border: none;
+  padding: 16px 48px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn_yellow_text, .btn_white_text {
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn_white {
+  background-color: #ffffff;
+}
+.btn_white:hover {
+  background-color: white;
+}
+.btn_white:active {
+  background-color: #e6e6e6;
+  transform: scale(0.95);
+}
+.btn_yellow {
+  background-color: #ffd050;
+}
+.btn_yellow:hover {
+  background-color: #ffde83;
+}
+.btn_yellow:active {
+  background-color: #ffc21d;
+  transform: scale(0.95);
+}/*# sourceMappingURL=SubscribeBtn.css.map */
