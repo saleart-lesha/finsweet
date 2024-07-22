@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import logo from './../../app/img/logoHeader/Logo.svg'
-import SubscribeBtn from '../../shared/subscribeBtn/SubscribeBtn'
 import './scss/Header.css'
+import Button from '../../shared/subscribeBtn/Button'
 
 const Header = () => {
   return (
@@ -32,7 +32,7 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-        <SubscribeBtn colorBtn={'white'} />
+        <Button color={'white'} text='Subscribe' />
       </div>
     </header>
   )
