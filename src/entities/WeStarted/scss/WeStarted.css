@@ -1,0 +1,45 @@
+.WeStarted .main_body {
+  margin: 0 80px;
+}
+.WeStarted .container {
+  position: relative;
+  height: 100%;
+}
+.WeStarted .container img {
+  width: 949px;
+  height: 705px;
+}
+.WeStarted .container .content_container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  width: 706px;
+}
+.WeStarted .container .content_container .content {
+  padding: 80px;
+}
+.WeStarted .container .content_container .content .we_started h1 {
+  margin: 0;
+  font-family: "Sen";
+  font-size: 44px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 30px;
+}
+.WeStarted .container .content_container .content .we_started h2 {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: #232536;
+  margin-bottom: 25px;
+}
+.WeStarted .container .description_text {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #8f8f97;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=WeStarted.css.map */
