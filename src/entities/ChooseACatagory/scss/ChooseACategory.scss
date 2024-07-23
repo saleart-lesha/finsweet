@@ -1,0 +1,45 @@
+@import './../../../app/scss/abstracts/textDeclaration';
+.ChooseACategory {
+  .main_body {
+    margin: 120px 80px 120px 80px;
+    .header_container {
+      display: flex;
+      justify-content: center;
+      h1 {
+        @include textDeclaration('Sen', 36px, 700, #232536, 0);
+        margin: 0 0 40px 0;
+      }
+    }
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    .card {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      margin-right: 20px;
+      border: 1px solid #dedee0;
+      img {
+        margin-bottom: 15px;
+        width: 48px;
+        height: 48px;
+        background-color: #fbf6ea;
+      }
+      h2 {
+        margin: 0;
+        @include textDeclaration('Sen', 24px, 700, #232536, 15px);
+      }
+      .description_text {
+        margin: 0;
+        @include textDeclaration('Inter', 16px, 400, #9b9ba0, 15px);
+      }
+      &:hover {
+        background-color: #ffd050;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

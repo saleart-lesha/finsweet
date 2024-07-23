@@ -1,0 +1,54 @@
+.ChooseACategory .main_body {
+  margin: 120px 80px 120px 80px;
+}
+.ChooseACategory .main_body .header_container {
+  display: flex;
+  justify-content: center;
+}
+.ChooseACategory .main_body .header_container h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 0;
+  margin: 0 0 40px 0;
+}
+.ChooseACategory .container {
+  display: flex;
+  justify-content: center;
+}
+.ChooseACategory .container .card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 20px;
+  border: 1px solid #dedee0;
+}
+.ChooseACategory .container .card img {
+  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  background-color: #fbf6ea;
+}
+.ChooseACategory .container .card h2 {
+  margin: 0;
+  font-family: "Sen";
+  font-size: 24px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 15px;
+}
+.ChooseACategory .container .card .description_text {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #9b9ba0;
+  margin-bottom: 15px;
+}
+.ChooseACategory .container .card:hover {
+  background-color: #ffd050;
+}
+.ChooseACategory .container .card:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=ChooseACategory.css.map */
