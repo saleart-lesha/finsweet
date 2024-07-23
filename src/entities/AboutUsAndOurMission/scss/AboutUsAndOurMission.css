@@ -1,0 +1,77 @@
+.AboutUsAndOurMission .main_body {
+  margin: 0 80px 0 80px;
+}
+.AboutUsAndOurMission .separation {
+  display: flex;
+}
+.AboutUsAndOurMission .separation .first_block {
+  background-color: #ffffff;
+  height: 23px;
+  width: 20%;
+}
+.AboutUsAndOurMission .separation .second_block {
+  background-color: #ffd050;
+  height: 23px;
+  width: 60%;
+}
+.AboutUsAndOurMission .separation .third_block {
+  background-color: #592ea9;
+  height: 23px;
+  width: 20%;
+}
+.AboutUsAndOurMission .container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f0f8;
+  padding: 100px 0;
+}
+.AboutUsAndOurMission .container .about_us {
+  width: 515px;
+}
+.AboutUsAndOurMission .container .about_us h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.AboutUsAndOurMission .container .about_us h2 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.AboutUsAndOurMission .description_text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #8f8f97;
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+}
+.AboutUsAndOurMission .reed_more {
+  text-decoration: none;
+  font-family: "Sen";
+  font-size: 16px;
+  font-weight: 700;
+  color: #592ea9;
+  margin-bottom: 0;
+}
+.AboutUsAndOurMission .our_mission {
+  width: 516px;
+}
+.AboutUsAndOurMission .our_mission h1 {
+  font-family: "Sen";
+  font-size: 30px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.AboutUsAndOurMission .our_mission h2 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: #232536;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=AboutUsAndOurMission.css.map */
