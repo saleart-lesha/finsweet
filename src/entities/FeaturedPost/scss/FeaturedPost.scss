@@ -1,0 +1,50 @@
+@import './../../../app/scss/abstracts/textDeclaration';
+.FeaturedPost {
+  width: 733px;
+  .container {
+    margin-right: 20px;
+    .header_text {
+      background-color: #ffffff;
+      margin-bottom: 20px;
+      h1 {
+        @include textDeclaration('Sen', 36px, 700, #232536, 0);
+        margin: 0;
+      }
+    }
+  }
+  .container_content {
+    border: 1px solid #f4f4f5;
+    padding: 20px;
+    p {
+      margin: 0;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    .about_author_text {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      @include textDeclaration('Inter', 16px, 400, #232536, 20px);
+      .author {
+        span {
+          color: #592e49;
+        }
+        margin-right: 10px;
+      }
+      .separator {
+        @include textDeclaration('Inter', 16px, 400, #232536, 0px);
+        margin-right: 10px;
+      }
+      .date {
+        @include textDeclaration('Inter', 16px, 400, #232536, 0px);
+      }
+    }
+    h2 {
+      @include textDeclaration('Sen', 28px, 700, #232536, 20px);
+    }
+    .content_text {
+      @include textDeclaration('Inter', 16px, 400, #6d6e76, 30px);
+    }
+  }
+}

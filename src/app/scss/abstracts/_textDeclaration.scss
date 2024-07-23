@@ -1,0 +1,7 @@
+@mixin textDeclaration($ff, $fs, $fw, $color, $mb) {
+  font-family: $ff;
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+  margin-bottom: $mb;
+}

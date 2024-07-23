@@ -1,0 +1,56 @@
+@import './../../../app/scss/abstracts/textDeclaration';
+.AllPosts {
+  width: 517px;
+  .container {
+    p {
+      margin: 0;
+    }
+    .header_text {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      h1 {
+        @include textDeclaration('Sen', 36px, 700, #232536, 0);
+        margin: 0;
+      }
+      a {
+        @include textDeclaration('Inter', 16px, 400, #592ea9, 0);
+        margin: 0;
+        text-decoration: none;
+      }
+    }
+  }
+  .card_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .card {
+      padding: 20px;
+      .about_author_text {
+        display: flex;
+        align-items: center;
+        @include textDeclaration('Inter', 12px, 400, #232536, 10px);
+        .author {
+          span {
+            color: #592e49;
+          }
+          margin-right: 10px;
+        }
+        .separator {
+          @include textDeclaration('Inter', 12px, 400, #232536, 0px);
+          margin-right: 10px;
+        }
+        .date {
+          @include textDeclaration('Inter', 12px, 400, #232536, 0px);
+        }
+      }
+      .description_text {
+        @include textDeclaration('Sen', 18px, 700, #232536, 0px);
+      }
+      &:hover {
+        background-color: #fbf6ea;
+      }
+    }
+  }
+}
