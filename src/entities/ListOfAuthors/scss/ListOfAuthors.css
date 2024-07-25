@@ -1,0 +1,64 @@
+.ListOfAuthors .main_body {
+  margin: 120px 80px 120px 80px;
+}
+.ListOfAuthors .main_body .header_container {
+  display: flex;
+  justify-content: center;
+}
+.ListOfAuthors .main_body .header_container h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 0;
+  margin: 0 0 40px 0;
+}
+.ListOfAuthors .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.ListOfAuthors .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 40px;
+  border: 1px solid #dedee0;
+}
+.ListOfAuthors .container .card .img {
+  margin-bottom: 15px;
+  width: 128px;
+  height: 128px;
+}
+.ListOfAuthors .container .card .social_networks {
+  display: flex;
+  justify-content: space-between;
+}
+.ListOfAuthors .container .card .social_networks .imgIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+}
+.ListOfAuthors .container .card .social_networks .imgIcon:last-child {
+  margin-right: 0px;
+}
+.ListOfAuthors .container .card h2 {
+  margin: 0;
+  font-family: "Sen";
+  font-size: 24px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 5px;
+}
+.ListOfAuthors .container .card .description_text {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #9b9ba0;
+  margin-bottom: 15px;
+}
+.ListOfAuthors .container .card:hover {
+  background-color: #fbf6ea;
+}/*# sourceMappingURL=ListOfAuthors.css.map */
