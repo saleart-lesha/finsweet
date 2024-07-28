@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react'
 import Header from '../widget/header/Header'
 import { Route, Routes } from 'react-router-dom'
+import Footer from '../widget/footer/Footer'
 
 function Routing() {
   const HomePage = lazy(() => import('./HomePage/HomePage'))
@@ -10,6 +11,7 @@ function Routing() {
       <Routes>
         <Route path='/' element={<HomePage />} />
       </Routes>
+      <Footer />
     </Suspense>
   )
 }

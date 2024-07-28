@@ -1,0 +1,101 @@
+@import './../../../app/scss/abstracts/_textDeclaration.scss';
+.Footer {
+  padding: 40px 80px;
+  background-color: #232536;
+  display: flex;
+  flex-direction: column;
+  .header_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .menu {
+    .menu_body {
+      margin-right: 24px;
+      &_list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      &_link {
+        color: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 24px;
+      }
+
+      &_text {
+        color: #ffffff;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .subscribe {
+    background-color: #2e3040;
+    display: flex;
+    padding: 80px 40px;
+    margin-bottom: 40px;
+    &_header {
+      width: 50%;
+      h1 {
+        margin: 0;
+        @include textDeclaration('Sen', 30px, 700, #ffffff, 0);
+      }
+    }
+    &_form {
+      width: 50%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      input {
+        background-color: #2e3040;
+        border: 1px solid #454549;
+        padding: 18px 16px;
+        margin-right: 20px;
+        width: 280px;
+      }
+    }
+  }
+  .contact {
+    display: flex;
+    justify-content: space-between;
+    .address_container {
+      .address {
+        margin: 0;
+        @include textDeclaration('Inter', 16px, 400, #bdbdc2, 5px);
+      }
+      .mail {
+        margin: 0;
+        @include textDeclaration('Inter', 16px, 400, #bdbdc2, 0);
+      }
+    }
+  }
+  .social_network {
+    display: flex;
+    justify-content: space-between;
+    .imgIcon {
+      width: 16px;
+      height: 16px;
+      margin-right: 15px;
+      filter: invert(37%) sepia(6%) saturate(328%) hue-rotate(188deg) brightness(89%) contrast(88%);
+      &:last-child {
+        margin-right: 0px;
+      }
+    }
+  }
+}
