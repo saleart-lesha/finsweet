@@ -1,5 +1,6 @@
 import AboutUsAndOurMission from '../../entities/AboutUsAndOurMission/AboutUsAndOurMission'
 import ChooseACategory from '../../entities/ChooseACatagory/ChooseACategory'
+import JoinNow from '../../entities/JoinNow/JoinNow'
 import ListOfAuthors from '../../entities/ListOfAuthors/ListOfAuthors'
 import PostedOnStartup from '../../entities/PostedOnStartup/PostedOnStartup'
 import Testimonials from '../../entities/Testimonials/Testimonials'
@@ -18,6 +19,7 @@ const HomePage = () => {
       <ListOfAuthors />
       <WeAreFeaturedIn />
       <Testimonials />
+      <JoinNow />
     </div>
   )
 }

@@ -1,0 +1,26 @@
+@import './../../../app/scss/abstracts/_textDeclaration.scss';
+.JoinNow {
+  margin: 0 80px;
+  .main_body {
+    padding: 120px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 414px;
+      margin-bottom: 30px;
+      h1 {
+        margin: 0;
+        @include textDeclaration('Sen', 30px, 700, #232536, 20px);
+      }
+      .description {
+        margin: 0;
+        @include textDeclaration('Inter', 16px, 400, #8f8f97, 0);
+      }
+    }
+  }
+}
