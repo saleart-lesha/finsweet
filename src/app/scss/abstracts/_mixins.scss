@@ -1,0 +1,20 @@
+// Форматирование текста
+@mixin textDeclaration($ff, $fs, $fw, $color, $mb) {
+  font-family: $ff;
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+  margin-bottom: $mb;
+}
+
+// Кнопки
+@mixin backgroundColorBtn($bgc) {
+  background-color: $bgc;
+  &:hover {
+    background-color: lighten($bgc, 10%);
+  }
+  &:active {
+    background-color: darken($bgc, 10%);
+    transform: scale(0.95);
+  }
+}

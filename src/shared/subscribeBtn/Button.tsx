@@ -1,5 +1,3 @@
-import './scss/SubscribeBtn.css'
-
 interface ButtonProps {
   color: string
   text: string

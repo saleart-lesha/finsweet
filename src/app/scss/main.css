@@ -1,0 +1,230 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #232536;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 80px;
+}
+@media (max-width: 1050px) {
+  .header {
+    padding: 12px 40px;
+  }
+}
+@media (max-width: 930px) {
+  .header {
+    padding: 12px 20px;
+  }
+}
+.header__menu {
+  display: flex;
+  align-items: center;
+}
+.header__menu__body {
+  margin-right: 24px;
+}
+.header__menu__body__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.header__menu__body__link {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 24px;
+}
+.header__menu__body__text {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer {
+  padding: 40px 80px;
+  background-color: #232536;
+  display: flex;
+  flex-direction: column;
+}
+.footer__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.footer__menu {
+  margin-right: 24px;
+}
+.footer__menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer__menu__link {
+  color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 24px;
+}
+.footer__menu__text {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.footer__menu:last-child {
+  margin-right: 0;
+}
+.footer__subscribe {
+  background-color: #2e3040;
+  display: flex;
+  padding: 80px 40px;
+  margin-bottom: 40px;
+}
+.footer__subscribe__header {
+  width: 50%;
+}
+.footer__subscribe__header h1 {
+  margin: 0;
+  font-family: "Sen";
+  font-size: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.footer__subscribe__form {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.footer__subscribe__form input {
+  background-color: #2e3040;
+  border: 1px solid #454549;
+  padding: 18px 16px;
+  margin-right: 20px;
+  width: 280px;
+}
+.footer__contact {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__contact__container__address {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #bdbdc2;
+  margin-bottom: 5px;
+}
+.footer__contact__container__mail {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #bdbdc2;
+  margin-bottom: 0;
+}
+.footer__social_network {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social_network__imgIcon {
+  width: 16px;
+  height: 16px;
+  margin-right: 15px;
+  filter: invert(37%) sepia(6%) saturate(328%) hue-rotate(188deg) brightness(89%) contrast(88%);
+}
+.footer__social_network__imgIcon:last-child {
+  margin-right: 0px;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./../fonts/Inter-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sen";
+  src: url("./../fonts/Sen-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./../fonts/Inter-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./../fonts/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("./../fonts/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+.btn_yellow, .btn_white {
+  border: none;
+  padding: 16px 48px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn_yellow_text, .btn_white_text {
+  font-family: "Sen", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn_white {
+  background-color: #ffffff;
+}
+.btn_white:hover {
+  background-color: white;
+}
+.btn_white:active {
+  background-color: #e6e6e6;
+  transform: scale(0.95);
+}
+.btn_yellow {
+  background-color: #ffd050;
+}
+.btn_yellow:hover {
+  background-color: #ffde83;
+}
+.btn_yellow:active {
+  background-color: #ffc21d;
+  transform: scale(0.95);
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */

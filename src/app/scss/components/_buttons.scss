@@ -1,14 +1,4 @@
-@mixin backgroundColorBtn($bgc) {
-  background-color: $bgc;
-  &:hover {
-    background-color: lighten($bgc, 10%);
-  }
-  &:active {
-    background-color: darken($bgc, 10%);
-    transform: scale(0.95);
-  }
-}
-
+@import './../abstracts/mixins';
 %btnPattern {
   border: none;
   padding: 16px 48px;
