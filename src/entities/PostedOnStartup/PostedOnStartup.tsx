@@ -1,26 +1,25 @@
 import Button from '../../shared/subscribeBtn/Button'
-import './scss/PostedOnStartup.css'
 
 const PostedOnStartup = () => {
   return (
-    <section className='PostedOnStartup'>
-      <div className='main_body'>
-        <div className='container'>
-          <p className='first_text'>POSTED ON STARTUP</p>
-          <p className='main_text'>Step-by-step guide to choosing great font pairs</p>
-          <div className='about_author_text'>
-            <p className='author'>
-              By <span>James West</span>
-            </p>
-            <p className='separator'> | </p>
-            <p className='date'> May 23, 2022</p>
-          </div>
-          <p className='about'>
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    <section className='postedOnStartup__main__body'>
+      <div className='postedOnStartup__container'>
+        <p className='postedOnStartup__container__name'>POSTED ON STARTUP</p>
+        <p className='postedOnStartup__container__slogan'>
+          Step-by-step guide to choosing great font pairs
+        </p>
+        <div className='postedOnStartup__author'>
+          <p className='postedOnStartup__author__name'>
+            By <span>James West</span>
           </p>
-          <Button color='yellow' text='Read More >' />
+          <p className='postedOnStartup__author__separator'> | </p>
+          <p className='postedOnStartup__author__date'> May 23, 2022</p>
         </div>
+        <p className='postedOnStartup__container__about'>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+          nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+        </p>
+        <Button color='yellow' text='Read More >' />
       </div>
     </section>
   )

@@ -219,6 +219,78 @@
   background-color: #ffc21d;
   transform: scale(0.95);
 }
+.postedOnStartup__main__body {
+  display: flex;
+  align-items: center;
+  background-image: url("./../img/homePage/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+.postedOnStartup__container {
+  margin: 0 80px 0 80px;
+  width: 804px;
+}
+.postedOnStartup__container__name {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.postedOnStartup__container__slogan {
+  margin: 0;
+  font-family: "Sen";
+  font-size: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.postedOnStartup__container__about {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 56px;
+}
+.postedOnStartup__author {
+  display: flex;
+  align-items: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.postedOnStartup__author__name {
+  margin: 0;
+  margin-right: 10px;
+}
+.postedOnStartup__author__name span {
+  color: #ffd050;
+}
+.postedOnStartup__author__separator {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+.postedOnStartup__author__date {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
 * {
   box-sizing: border-box;
 }
