@@ -52,12 +52,11 @@ a {
   margin: 0 0 0 24px;
 }
 .header__menu__body__text {
-  color: #ffffff;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
-  margin: 0;
+  color: #ffffff;
+  margin-bottom: 0;
 }
 
 .footer {
@@ -92,12 +91,11 @@ a {
   margin: 0 0 0 24px;
 }
 .footer__menu__text {
-  color: #ffffff;
-  text-decoration: none;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
-  margin: 0;
+  color: #ffffff;
+  margin-bottom: 0;
 }
 .footer__menu:last-child {
   margin-right: 0;
@@ -139,14 +137,14 @@ a {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
-  color: #bdbdc2;
+  color: #6d6e76;
   margin-bottom: 5px;
 }
 .footer__contact__container__mail {
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
-  color: #bdbdc2;
+  color: #6d6e76;
   margin-bottom: 0;
 }
 .footer__social_network {

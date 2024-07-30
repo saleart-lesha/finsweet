@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #232536;
+  background-color: $black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,12 +37,7 @@
       }
 
       &__text {
-        color: #ffffff;
-        text-decoration: none;
-        font-family: 'Inter', sans-serif;
-        font-size: 16px;
-        font-weight: 400;
-        margin: 0;
+        @include textDeclaration('Inter', 16px, 400, $white, 0);
       }
     }
   }

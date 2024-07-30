@@ -13,14 +13,14 @@
 }
 
 .btn_white {
-  @include backgroundColorBtn(#ffffff);
+  @include backgroundColorBtn($white);
   @extend %btnPattern;
   &_text {
     @extend %btn_text;
   }
 }
 .btn_yellow {
-  @include backgroundColorBtn(#ffd050);
+  @include backgroundColorBtn($yellow);
   @extend %btnPattern;
   &_text {
     @extend %btn_text;
