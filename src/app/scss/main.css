@@ -433,6 +433,65 @@ a {
   margin-bottom: 0;
 }
 
+.aboutUsAndOurMission {
+  margin: 0 80px 0 80px;
+}
+.aboutUsAndOurMission__separation {
+  display: flex;
+}
+.aboutUsAndOurMission__separation__first__block {
+  background-color: #ffffff;
+  height: 23px;
+  width: 20%;
+}
+.aboutUsAndOurMission__separation__second__block {
+  background-color: #ffd050;
+  height: 23px;
+  width: 60%;
+}
+.aboutUsAndOurMission__separation__third__block {
+  background-color: #592ea9;
+  height: 23px;
+  width: 20%;
+}
+.aboutUsAndOurMission__container {
+  display: flex;
+  justify-content: center;
+  background-color: #f4f0f8;
+  padding: 100px 0;
+}
+.aboutUsAndOurMission__card {
+  width: 515px;
+}
+.aboutUsAndOurMission__card h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.aboutUsAndOurMission__card h2 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.aboutUsAndOurMission__card__description {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6e76;
+  margin-bottom: 20px;
+}
+.aboutUsAndOurMission__reed__more_btn {
+  font-family: "Sen";
+  font-size: 16px;
+  font-weight: 700;
+  color: #592ea9;
+  margin-bottom: 0;
+}
+
 * {
   box-sizing: border-box;
 }
