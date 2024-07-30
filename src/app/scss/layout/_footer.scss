@@ -50,7 +50,6 @@
     &__header {
       width: 50%;
       h1 {
-        margin: 0;
         @include textDeclaration('Sen', 30px, 700, #ffffff, 0);
       }
     }
@@ -73,11 +72,9 @@
     justify-content: space-between;
     &__container {
       &__address {
-        margin: 0;
         @include textDeclaration('Inter', 16px, 400, #bdbdc2, 5px);
       }
       &__mail {
-        margin: 0;
         @include textDeclaration('Inter', 16px, 400, #bdbdc2, 0);
       }
     }

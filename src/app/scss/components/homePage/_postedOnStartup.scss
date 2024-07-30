@@ -15,17 +15,14 @@
     width: 804px;
 
     &__name {
-      margin: 0;
       @include textDeclaration('Inter', 18px, 600, $white, 30px);
     }
 
     &__slogan {
-      margin: 0;
       @include textDeclaration('Sen', 44px, 700, $white, 20px);
     }
 
     &__about {
-      margin: 0;
       @include textDeclaration('Inter', 16px, 400, $white, 56px);
     }
   }
@@ -36,7 +33,6 @@
     @include textDeclaration('Inter', 16px, 400, $white, 20px);
 
     &__name {
-      margin: 0;
       span {
         color: $yellow;
       }
@@ -44,13 +40,11 @@
     }
 
     &__separator {
-      margin: 0;
       @include textDeclaration('Inter', 16px, 400, $white, 0px);
       margin-right: 10px;
     }
 
     &__date {
-      margin: 0;
       @include textDeclaration('Inter', 16px, 400, $white, 0px);
     }
   }

@@ -1,3 +1,13 @@
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   position: sticky;
   top: 0;
@@ -102,7 +112,6 @@
   width: 50%;
 }
 .footer__subscribe__header h1 {
-  margin: 0;
   font-family: "Sen";
   font-size: 30px;
   font-weight: 700;
@@ -127,7 +136,6 @@
   justify-content: space-between;
 }
 .footer__contact__container__address {
-  margin: 0;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
@@ -135,7 +143,6 @@
   margin-bottom: 5px;
 }
 .footer__contact__container__mail {
-  margin: 0;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
@@ -234,7 +241,6 @@
   width: 804px;
 }
 .postedOnStartup__container__name {
-  margin: 0;
   font-family: "Inter";
   font-size: 18px;
   font-weight: 600;
@@ -242,7 +248,6 @@
   margin-bottom: 30px;
 }
 .postedOnStartup__container__slogan {
-  margin: 0;
   font-family: "Sen";
   font-size: 44px;
   font-weight: 700;
@@ -250,7 +255,6 @@
   margin-bottom: 20px;
 }
 .postedOnStartup__container__about {
-  margin: 0;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
@@ -267,14 +271,12 @@
   margin-bottom: 20px;
 }
 .postedOnStartup__author__name {
-  margin: 0;
   margin-right: 10px;
 }
 .postedOnStartup__author__name span {
   color: #ffd050;
 }
 .postedOnStartup__author__separator {
-  margin: 0;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
@@ -283,12 +285,154 @@
   margin-right: 10px;
 }
 .postedOnStartup__author__date {
-  margin: 0;
   font-family: "Inter";
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 0px;
+}
+
+.homePosts__main__body {
+  padding: 120px 80px;
+  display: flex;
+  justify-content: center;
+}
+.homePosts__featured {
+  width: 733px;
+  margin-right: 20px;
+}
+.homePosts__featured__header {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.homePosts__featured__header h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 0;
+}
+.homePosts__featured__content {
+  border: 1px solid #f4f4f5;
+  padding: 20px;
+}
+.homePosts__featured__content img {
+  margin-bottom: 20px;
+}
+.homePosts__featured__content__header {
+  font-family: "Sen";
+  font-size: 28px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.homePosts__featured__content__description {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6e76;
+  margin-bottom: 30px;
+}
+.homePosts__featured__author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.homePosts__featured__author__name {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.homePosts__featured__author__name span {
+  color: #592ea9;
+}
+.homePosts__featured__author__separator {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+.homePosts__featured__author__date {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 0;
+}
+.homePosts__allPost {
+  width: 517px;
+}
+.homePosts__allPost__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.homePosts__allPost__header h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 0;
+}
+.homePosts__allPost__header a {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #592ea9;
+  margin-bottom: 0;
+}
+.homePosts__allPost__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.homePosts__allPost__card {
+  padding: 20px;
+}
+.homePosts__allPost__card__description {
+  font-family: "Sen";
+  font-size: 18px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 0px;
+}
+.homePosts__allPost__card:hover {
+  background-color: #fbf6ea;
+}
+.homePosts__allPost__author {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.homePosts__allPost__author__name {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 0;
+}
+.homePosts__allPost__author__name span {
+  color: #592ea9;
+}
+.homePosts__allPost__author__separator {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 0;
+}
+.homePosts__allPost__author__date {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 0;
 }
 
 * {

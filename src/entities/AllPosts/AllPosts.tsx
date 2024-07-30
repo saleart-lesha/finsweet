@@ -1,65 +1,62 @@
 import { Link } from 'react-router-dom'
-import './scss/AllPosts.css'
 
 const AllPosts = () => {
   return (
-    <section className='AllPosts'>
-      <div className='container'>
-        <header className='header_text'>
-          <h1>All Posts</h1>
-          <nav>
-            <Link to='/'>View All</Link>
-          </nav>
-        </header>
-        <div className='card_container'>
-          <div className='card'>
-            <div className='about_author_text'>
-              <p className='author'>
-                By <span>John Doe</span>
-              </p>
-              <p className='separator'>|</p>
-              <p className='date'>May 23, 2022</p>
-            </div>
-            <p className='description_text'>
-              8 Figma design systems that you can download for free today.
+    <section className='homePosts__allPost'>
+      <header className='homePosts__allPost__header'>
+        <h1>All Posts</h1>
+        <nav>
+          <Link to='/'>View All</Link>
+        </nav>
+      </header>
+      <div className='homePosts__allPost__container'>
+        <div className='homePosts__allPost__card'>
+          <div className='homePosts__allPost__author'>
+            <p className='homePosts__allPost__author__name'>
+              By <span>John Doe</span>
             </p>
+            <p className='homePosts__allPost__author__separator'>|</p>
+            <p className='homePosts__allPost__author__date'>May 23, 2022</p>
           </div>
-          <div className='card'>
-            <div className='about_author_text'>
-              <p className='author'>
-                By <span>John Doe</span>
-              </p>
-              <p className='separator'>|</p>
-              <p className='date'>May 23, 2022</p>
-            </div>
-            <p className='description_text'>
-              8 Figma design systems that you can download for free today.
+          <p className='homePosts__allPost__card__description'>
+            8 Figma design systems that you can download for free today.
+          </p>
+        </div>
+        <div className='homePosts__allPost__card'>
+          <div className='homePosts__allPost__author'>
+            <p className='homePosts__allPost__author__name'>
+              By <span>John Doe</span>
             </p>
+            <p className='homePosts__allPost__author__separator'>|</p>
+            <p className='homePosts__allPost__author__date'>May 23, 2022</p>
           </div>
-          <div className='card'>
-            <div className='about_author_text'>
-              <p className='author'>
-                By <span>John Doe</span>
-              </p>
-              <p className='separator'>|</p>
-              <p className='date'>May 23, 2022</p>
-            </div>
-            <p className='description_text'>
-              8 Figma design systems that you can download for free today.
+          <p className='homePosts__allPost__card__description'>
+            8 Figma design systems that you can download for free today.
+          </p>
+        </div>
+        <div className='homePosts__allPost__card'>
+          <div className='homePosts__allPost__author'>
+            <p className='homePosts__allPost__author__name'>
+              By <span>John Doe</span>
             </p>
+            <p className='homePosts__allPost__author__separator'>|</p>
+            <p className='homePosts__allPost__author__date'>May 23, 2022</p>
           </div>
-          <div className='card'>
-            <div className='about_author_text'>
-              <p className='author'>
-                By <span>John Doe</span>
-              </p>
-              <p className='separator'>|</p>
-              <p className='date'>May 23, 2022</p>
-            </div>
-            <p className='description_text'>
-              8 Figma design systems that you can download for free today.
+          <p className='homePosts__allPost__card__description'>
+            8 Figma design systems that you can download for free today.
+          </p>
+        </div>
+        <div className='homePosts__allPost__card'>
+          <div className='homePosts__allPost__author'>
+            <p className='homePosts__allPost__author__name'>
+              By <span>John Doe</span>
             </p>
+            <p className='homePosts__allPost__author__separator'>|</p>
+            <p className='homePosts__allPost__author__date'>May 23, 2022</p>
           </div>
+          <p className='homePosts__allPost__card__description'>
+            8 Figma design systems that you can download for free today.
+          </p>
         </div>
       </div>
     </section>

@@ -1,0 +1,117 @@
+.homePosts {
+  &__main__body {
+    padding: 120px 80px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__featured {
+    width: 733px;
+    margin-right: 20px;
+    &__header {
+      background-color: $white;
+      margin-bottom: 20px;
+      h1 {
+        @include textDeclaration('Sen', 36px, 700, $black, 0);
+      }
+    }
+
+    &__content {
+      border: 1px solid #f4f4f5;
+      padding: 20px;
+
+      img {
+        margin-bottom: 20px;
+      }
+
+      &__header {
+        @include textDeclaration('Sen', 28px, 700, $black, 20px);
+      }
+
+      &__description {
+        @include textDeclaration('Inter', 16px, 400, $grayText, 30px);
+      }
+    }
+
+    &__author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &__name {
+        @include textDeclaration('Inter', 16px, 400, $black, 0);
+        span {
+          color: $purple;
+        }
+        margin-right: 10px;
+      }
+
+      &__separator {
+        @include textDeclaration('Inter', 16px, 400, $black, 0);
+        margin-right: 10px;
+      }
+
+      &__date {
+        @include textDeclaration('Inter', 16px, 400, $black, 0);
+      }
+    }
+  }
+
+  &__allPost {
+    width: 517px;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      h1 {
+        @include textDeclaration('Sen', 36px, 700, $black, 0);
+      }
+
+      a {
+        @include textDeclaration('Inter', 16px, 400, $purple, 0);
+      }
+    }
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    &__card {
+      padding: 20px;
+      &__description {
+        @include textDeclaration('Sen', 18px, 700, $black, 0px);
+      }
+
+      &:hover {
+        background-color: $backGroundHoverCard;
+      }
+    }
+
+    &__author {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+
+      &__name {
+        @include textDeclaration('Inter', 12px, 400, $black, 0);
+
+        span {
+          color: $purple;
+        }
+      }
+
+      &__separator {
+        @include textDeclaration('Inter', 12px, 400, $black, 0);
+      }
+
+      &__date {
+        @include textDeclaration('Inter', 12px, 400, $black, 0);
+      }
+    }
+  }
+}

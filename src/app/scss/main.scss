@@ -1,5 +1,6 @@
 @import './abstracts/mixins';
 @import './abstracts/variables';
+@import './base/reset';
 @import './layout/header';
 @import './layout/footer';
 @import './../fonts/fonts';
@@ -7,6 +8,7 @@
 
 // homePage
 @import './components/homePage/postedOnStartup';
+@import './components/homePage/homePosts';
 * {
   box-sizing: border-box;
 }
