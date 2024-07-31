@@ -1,11 +1,18 @@
+// base
+@import './base/reset';
+@import './../fonts/fonts';
+
+// abstracts
 @import './abstracts/mixins';
 @import './abstracts/variables';
-@import './base/reset';
+
+// layout
 @import './layout/header';
 @import './layout/footer';
-@import './../fonts/fonts';
-@import './components/buttons';
 @import './layout/grid';
+
+//components
+@import './components/buttons';
 
 // homePage
 @import './components/homePage/postedOnStartup';
@@ -13,6 +20,8 @@
 @import './components/homePage/aboutUsAndOurMission';
 @import './components/homePage/chooseACategory';
 @import './components/homePage/weStarted';
+@import './components/homePage/listOfAuthors';
+
 * {
   box-sizing: border-box;
 }
