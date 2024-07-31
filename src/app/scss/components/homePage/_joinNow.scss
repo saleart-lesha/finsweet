@@ -1,0 +1,20 @@
+.joinNow {
+  padding: 0 80px 120px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  &__container {
+    width: 414px;
+    margin-bottom: 30px;
+
+    h1 {
+      @include textDeclaration('Sen', 30px, 700, $black, 20px);
+    }
+
+    &__description {
+      @include textDeclaration('Inter', 16px, 400, $grayText, 0);
+    }
+  }
+}
