@@ -1,0 +1,36 @@
+.weStarted {
+  padding: 0 80px;
+
+  &__main__body {
+    position: relative;
+    img {
+      width: 949px;
+      height: 705px;
+    }
+  }
+
+  &__container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: $white;
+    width: 706px;
+
+    &__content {
+      padding: 80px;
+      h1 {
+        margin: 0;
+        @include textDeclaration('Sen', 44px, 700, $black, 30px);
+      }
+
+      h2 {
+        margin: 0;
+        @include textDeclaration('Inter', 16px, 600, $black, 25px);
+      }
+    }
+
+    &__description {
+      @include textDeclaration('Inter', 16px, 400, $grayText, 30px);
+    }
+  }
+}
