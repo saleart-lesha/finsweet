@@ -5,11 +5,13 @@
 @import './layout/footer';
 @import './../fonts/fonts';
 @import './components/buttons';
+@import './layout/grid';
 
 // homePage
 @import './components/homePage/postedOnStartup';
 @import './components/homePage/homePosts';
 @import './components/homePage/aboutUsAndOurMission';
+@import './components/homePage/chooseACategory';
 * {
   box-sizing: border-box;
 }

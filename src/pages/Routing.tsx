@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Footer from '../widget/footer/Footer'
 
 function Routing() {
-  const HomePage = lazy(() => import('./HomePage/HomePage'))
+  const HomePage = lazy(() => import('./homePage/HomePage'))
   return (
     <Suspense fallback={<span>Загрузка...</span>}>
       <Header />
