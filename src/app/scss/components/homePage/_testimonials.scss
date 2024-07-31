@@ -1,0 +1,57 @@
+.testimonials {
+  padding: 120px 80px;
+
+  &__container {
+    background-color: $backGroundHoverCard;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+  }
+
+  &__first__block {
+    margin-right: 80px;
+
+    h1 {
+      @include textDeclaration('Sen', 36px, 700, $black, 20px);
+    }
+    h2 {
+      @include textDeclaration('Inter', 16px, 600, $black, 20px);
+    }
+
+    &__description {
+      @include textDeclaration('Inter', 16px, 400, $black, 20px);
+    }
+  }
+
+  &__separation {
+    color: $borderColor;
+    margin-right: 80px;
+  }
+
+  &__second__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__description {
+      @include textDeclaration('Sen', 22px, 700, $black, 0);
+    }
+  }
+  &__author {
+    display: flex;
+    margin: 0;
+    img {
+      width: 48px;
+      height: 48px;
+      margin-right: 10px;
+    }
+
+    &__name {
+      @include textDeclaration('Sen', 16px, 700, $black, 5px);
+    }
+
+    &__place {
+      @include textDeclaration('Inter', 16px, 400, $grayText, 5px);
+    }
+  }
+}

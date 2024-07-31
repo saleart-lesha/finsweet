@@ -678,6 +678,79 @@ a {
   margin-bottom: 0;
 }
 
+.testimonials {
+  padding: 120px 80px;
+}
+.testimonials__container {
+  background-color: #fbf6ea;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+.testimonials__first__block {
+  margin-right: 80px;
+}
+.testimonials__first__block h1 {
+  font-family: "Sen";
+  font-size: 36px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.testimonials__first__block h2 {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.testimonials__first__block__description {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #232536;
+  margin-bottom: 20px;
+}
+.testimonials__separation {
+  color: #dedee0;
+  margin-right: 80px;
+}
+.testimonials__second__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonials__second__block__description {
+  font-family: "Sen";
+  font-size: 22px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 0;
+}
+.testimonials__author {
+  display: flex;
+  margin: 0;
+}
+.testimonials__author img {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+}
+.testimonials__author__name {
+  font-family: "Sen";
+  font-size: 16px;
+  font-weight: 700;
+  color: #232536;
+  margin-bottom: 5px;
+}
+.testimonials__author__place {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6e76;
+  margin-bottom: 5px;
+}
+
 * {
   box-sizing: border-box;
 }

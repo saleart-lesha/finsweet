@@ -1,4 +1,3 @@
-import './scss/WeStarted.css'
 import bgimage from './../../app/img/homePage/WeStarted/close-up-photography-of-man-wearing-sunglasses-1212984.svg'
 import Button from '../../shared/subscribeBtn/Button'
 
