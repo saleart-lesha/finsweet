@@ -1,0 +1,21 @@
+.weAreFeaturedIn {
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    width: 160px;
+    height: 32px;
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    &__first__text {
+      @include textDeclaration('Inter', 16px, 400, $grayText, 5px);
+    }
+    &__second__text {
+      @include textDeclaration('Sen', 22px, 700, $grayText, 0);
+    }
+  }
+}

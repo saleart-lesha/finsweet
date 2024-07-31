@@ -649,6 +649,35 @@ a {
   background-color: #fbf6ea;
 }
 
+.weAreFeaturedIn {
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weAreFeaturedIn img {
+  width: 160px;
+  height: 32px;
+}
+.weAreFeaturedIn__container {
+  display: flex;
+  flex-direction: column;
+}
+.weAreFeaturedIn__container__first__text {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d6e76;
+  margin-bottom: 5px;
+}
+.weAreFeaturedIn__container__second__text {
+  font-family: "Sen";
+  font-size: 22px;
+  font-weight: 700;
+  color: #6d6e76;
+  margin-bottom: 0;
+}
+
 * {
   box-sizing: border-box;
 }
