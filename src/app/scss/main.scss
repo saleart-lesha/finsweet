@@ -14,6 +14,10 @@
 //components
 @import './components/buttons';
 
+// pages
+
+@import './pages/homePage';
+
 // homePage
 @import './components/homePage/postedOnStartup';
 @import './components/homePage/homePosts';
@@ -24,13 +28,3 @@
 @import './components/homePage/weAreFeaturedIn';
 @import './components/homePage/testimonials';
 @import './components/homePage/joinNow';
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}

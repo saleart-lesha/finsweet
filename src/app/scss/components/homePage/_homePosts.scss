@@ -1,6 +1,6 @@
 .homePosts {
   &__main__body {
-    padding: 120px 80px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
   }
@@ -8,9 +8,11 @@
   &__featured {
     width: 733px;
     margin-right: 20px;
+
     &__header {
       background-color: $white;
       margin-bottom: 20px;
+
       h1 {
         @include textDeclaration('Sen', 36px, 700, $black, 0);
       }

@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 p {
@@ -230,6 +240,10 @@ a {
   background-color: #ffc21d;
   transform: scale(0.95);
 }
+.home__page__content {
+  margin: 0 80px;
+}
+
 .postedOnStartup__main__body {
   display: flex;
   align-items: center;
@@ -297,7 +311,7 @@ a {
 }
 
 .homePosts__main__body {
-  padding: 120px 80px;
+  padding-top: 120px;
   display: flex;
   justify-content: center;
 }
@@ -440,7 +454,7 @@ a {
 }
 
 .aboutUsAndOurMission {
-  margin: 0 80px 0 80px;
+  padding-top: 120px;
 }
 .aboutUsAndOurMission__separation {
   display: flex;
@@ -499,7 +513,7 @@ a {
 }
 
 .chooseACategory {
-  padding: 120px 80px 120px 80px;
+  padding-top: 120px;
 }
 .chooseACategory__header {
   display: flex;
@@ -548,7 +562,7 @@ a {
 }
 
 .weStarted {
-  padding: 0 80px;
+  padding-top: 120px;
 }
 .weStarted__main__body {
   position: relative;
@@ -592,7 +606,7 @@ a {
 }
 
 .listOfAuthors {
-  padding: 120px 80px 120px 80px;
+  padding-top: 120px;
 }
 .listOfAuthors__header {
   display: flex;
@@ -650,7 +664,7 @@ a {
 }
 
 .weAreFeaturedIn {
-  padding: 0 80px;
+  padding-top: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -679,7 +693,7 @@ a {
 }
 
 .testimonials {
-  padding: 120px 80px;
+  padding-top: 120px;
 }
 .testimonials__container {
   background-color: #fbf6ea;
@@ -752,7 +766,7 @@ a {
 }
 
 .joinNow {
-  padding: 0 80px 120px 80px;
+  padding: 120px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -775,14 +789,4 @@ a {
   font-weight: 400;
   color: #6d6e76;
   margin-bottom: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
 }/*# sourceMappingURL=main.css.map */

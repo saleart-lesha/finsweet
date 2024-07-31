@@ -1,41 +1,51 @@
 .aboutUsAndOurMission {
-  margin: 0 80px 0 80px;
+  padding-top: 120px;
+
   &__separation {
     display: flex;
+
     &__first__block {
       background-color: $white;
       height: 23px;
       width: 20%;
     }
+
     &__second__block {
       background-color: $yellow;
       height: 23px;
       width: 60%;
     }
+
     &__third__block {
       background-color: $purple;
       height: 23px;
       width: 20%;
     }
   }
+
   &__container {
     display: flex;
     justify-content: center;
     background-color: $backGroundColorBlock;
     padding: 100px 0;
   }
+
   &__card {
     width: 515px;
+
     h1 {
       @include textDeclaration('Sen', 36px, 700, $black, 20px);
     }
+
     h2 {
       @include textDeclaration('Inter', 16px, 600, $black, 20px);
     }
+
     &__description {
       @include textDeclaration('Inter', 16px, 400, $grayText, 20px);
     }
   }
+
   &__reed__more_btn {
     @include textDeclaration('Sen', 16px, 700, $purple, 0);
   }

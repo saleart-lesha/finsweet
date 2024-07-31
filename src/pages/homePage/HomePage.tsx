@@ -10,16 +10,18 @@ import HomePosts from '../../widget/HomePosts/HomePosts'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='home__page'>
       <PostedOnStartup />
-      <HomePosts />
-      <AboutUsAndOurMission />
-      <ChooseACategory />
-      <WeStarted />
-      <ListOfAuthors />
-      <WeAreFeaturedIn />
-      <Testimonials />
-      <JoinNow />
+      <div className='home__page__content'>
+        <HomePosts />
+        <AboutUsAndOurMission />
+        <ChooseACategory />
+        <WeStarted />
+        <ListOfAuthors />
+        <WeAreFeaturedIn />
+        <Testimonials />
+        <JoinNow />
+      </div>
     </div>
   )
 }

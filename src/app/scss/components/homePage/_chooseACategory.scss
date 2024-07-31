@@ -1,37 +1,46 @@
 .chooseACategory {
-  padding: 120px 80px 120px 80px;
+  padding-top: 120px;
+
   &__header {
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
+
     h1 {
       @include textDeclaration('Sen', 36px, 700, $black, 0);
     }
   }
+
   &__container {
     @extend %grid;
   }
+
   &__card {
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin-right: 20px;
     border: 1px solid $borderColor;
+
     img {
       margin-bottom: 15px;
       width: 48px;
       height: 48px;
       background-color: $backGroundHoverCard;
     }
+
     h2 {
       @include textDeclaration('Sen', 24px, 700, $black, 15px);
     }
+
     &__description {
       @include textDeclaration('Inter', 16px, 400, $grayText, 15px);
     }
+
     &:hover {
       background-color: $yellow;
     }
+
     &:last-child {
       margin-right: 0;
     }
